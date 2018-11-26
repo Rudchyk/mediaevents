@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Media Events</title>
+    <script src="mediaevents.js"></script>
+</head>
+<body>
+    <script>
+        window.addEventListener('mediaXL', function (e) {
+            console.log('mediaXL');
+        }, false);
+        window.addEventListener('mediaSM', function (e) {
+            console.log('mediaSM');
+        }, false);
+        window.addEventListener('mediaMD', function (e) {
+            console.log('mediaMD');
+        }, false);
+        window.addEventListener('mediaLG', function (e) {
+            console.log('mediaLG');
+        }, false);
+        window.addEventListener('mediaMAX', function (e) {
+            console.log('mediaMAX');
+        }, false);
+
+        // InitMediaEvents.init();
+        // InitMediaEvents.init({
+        //     breakpoints: {
+        //         sm: 768,
+        //         md: 1024
+        //     }
+        // });
+        // InitMediaEvents.init({
+        //     breakpoints: {
+        //         sm: 768,
+        //         md: 1024
+        //     },
+        //     eventName: 'ahahah'
+        // });
+        // InitMediaEvents.init({
+        //     eventName: 'ahahah'
+        // });
+    </script>
+</body>
+</html>
